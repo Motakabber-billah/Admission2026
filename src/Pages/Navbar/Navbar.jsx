@@ -3,10 +3,11 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const navLinks = <>
-        <div className='flex flex-col md:flex-row  items-center justify-center gap-3 text-base'>
+        <div className='flex flex-col md:flex-row  md:items-center md:justify-center gap-3 text-base'>
             <NavLink to={'/'} className={'bg-slate-200 border border-violet-500 px-4 py-1 rounded-md hover:bg-violet-400 text-black'}><li>হোম</li></NavLink>
-            <NavLink to={'https://nobolok.com/gsa'} className={'bg-slate-200 border border-violet-500 px-4 py-1 rounded-md hover:bg-violet-400 text-black'}><li>300x300 ফটো রিসাইজার</li></NavLink>
-            <NavLink to={'/'} className={'bg-slate-200 border border-violet-500 px-4 py-1 rounded-md hover:bg-violet-400 text-black'}><li>যোগাযোগ</li></NavLink>
+            <NavLink to={'https://photobip.com/tools/resizer/teletalk/photo'} className={'bg-slate-200 border border-violet-500 px-4 py-1 rounded-md hover:bg-violet-400 text-black'}><li>300x300 ফটো রিসাইজার</li></NavLink>
+            <NavLink to={'https://nobolok.com/gsa'} className={'bg-slate-200 border border-violet-500 px-4 py-1 rounded-md hover:bg-violet-400 text-black'}><li>বয়স ক্যালকুলেটর</li></NavLink>
+            <NavLink to={'/contact'} className={'bg-slate-200 border border-violet-500 px-4 py-1 rounded-md hover:bg-violet-400 text-black'}><li>যোগাযোগ</li></NavLink>
         </div>
     </>
     return (

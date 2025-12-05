@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 const Root = () => {
     return (
         <div>
-            <div className='md:max-w-5xl mx-4 md:mx-auto  font-tiro'>
+            <div className='md:max-w-5xl mx-4 md:mx-auto  font-tiro dark:bg-white dark:text-black'>
                 <Outlet></Outlet>
             </div>
         </div>
