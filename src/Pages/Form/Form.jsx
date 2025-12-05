@@ -211,7 +211,7 @@ const Form = () => {
                                         <h1 className="text-base md:text-xl font-bold mb-5">
                                             ছবির দৈর্ঘ্য ও প্রস্থ্য অবশ্যই 300X300 পিক্সেল এবং সাইজ 100 কিলোবাইটের নিচে হতে হবে।</h1>
                                         <div className="flex justify-start">
-                                            <input type="file" name="image" className="file-input file-input-bordered w-full max-w-xs" />
+                                            <input type="file" name="image" className="file-input file-input-bordered w-full max-w-xs" required/>
                                         </div>
                                     </div>
                                 </div>
@@ -221,7 +221,7 @@ const Form = () => {
                         <div className="border border-orange-400 rounded-lg p-4 mt-5 mb-6">
                             <div className="mb-5">
                                 <label className="flex items-center justify-center gap-10">
-                                    <input type="checkbox" checked="checked" className="checkbox checkbox-secondary" />
+                                    <input type="checkbox"  className="checkbox checkbox-secondary" required/>
                                     <span className="label-text text-base">আমি অঙ্গীকার করছি যে উপরে প্রদানকৃত সকল তথ্য সঠিক।</span>
                                 </label>
                             </div>
